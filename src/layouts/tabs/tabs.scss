@@ -1,0 +1,33 @@
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 10px;
+    z-index: 10;
+    height: 60px;
+    border-top: 1px solid rgb(216, 217, 216);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: white;
+  }
+  .footer .tab {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer .tab .tab-icon {
+    font-size: 18px;
+    color: rgb(82, 80, 80);
+  }
+  .footer .tab .name {
+    font-size: 14px;
+    font-weight: 900;
+    color: rgb(82, 80, 80);
+  }
+  .p-5 {
+    padding: 0 10px;
+  }

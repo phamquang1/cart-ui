@@ -1,0 +1,9 @@
+.container-home {
+    display: flex;
+    .contain-product {
+        flex: auto;
+    }
+    .contain-precart {
+        width: 300px;
+    }
+}
