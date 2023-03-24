@@ -41,14 +41,14 @@ const Carts = () => {
                   <div className="name">{cart.name}</div>
                   <div className="right">
                     <p className="number">x3</p>
-                    <p className="price">{cart.price}</p>
+                    <p className="price">{cart.price}$</p>
                   </div>
                 </div>
               </div>
             ))}
           </div>
           <div className="footer-btn">
-            <button className="btn-total">Tổng: {total}</button>
+            <button className="btn-total">Tổng: {total}$</button>
           </div>
         </div>
       )}
