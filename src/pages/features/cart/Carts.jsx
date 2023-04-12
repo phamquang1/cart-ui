@@ -40,7 +40,7 @@ const Carts = () => {
                 <div className="detail">
                   <div className="name">{cart.name}</div>
                   <div className="right">
-                    <p className="number">x3</p>
+                    <p className="number">x1</p>
                     <p className="price">{cart.price}$</p>
                   </div>
                 </div>
